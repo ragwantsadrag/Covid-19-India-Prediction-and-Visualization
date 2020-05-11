@@ -1,0 +1,443 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20201.20.0326.1623                               -->
+<workbook original-version='18.1' source-build='2020.1.2 (20201.20.0326.1623)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Confirmed_HighRisk1' inline='true' name='federated.1htidrz03tjtbj14z9z270kb2k4k' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Confirmed_HighRisk1' name='textscan.1wufz1a0aysqsg16kxsfu01zgtll'>
+            <connection class='textscan' directory='C:/Users/16466/Documents/My_Documents/Data' filename='Confirmed_HighRisk1.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1wufz1a0aysqsg16kxsfu01zgtll' name='Confirmed_HighRisk1.csv' table='[Confirmed_HighRisk1#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='date' name='F1' ordinal='0' />
+            <column datatype='integer' name='France' ordinal='1' />
+            <column datatype='integer' name='China' ordinal='2' />
+            <column datatype='integer' name='United Kingdom' ordinal='3' />
+            <column datatype='integer' name='US' ordinal='4' />
+            <column datatype='integer' name='Spain' ordinal='5' />
+            <column datatype='integer' name='Italy' ordinal='6' />
+            <column datatype='integer' name='Germany' ordinal='7' />
+            <column datatype='integer' name='Iran' ordinal='8' />
+            <column datatype='integer' name='Turkey' ordinal='9' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Confirmed_HighRisk1.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Confirmed_HighRisk1.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>France</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[France]</local-name>
+            <parent-name>[Confirmed_HighRisk1.csv]</parent-name>
+            <remote-alias>France</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>China</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[China]</local-name>
+            <parent-name>[Confirmed_HighRisk1.csv]</parent-name>
+            <remote-alias>China</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>United Kingdom</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[United Kingdom]</local-name>
+            <parent-name>[Confirmed_HighRisk1.csv]</parent-name>
+            <remote-alias>United Kingdom</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>US</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[US]</local-name>
+            <parent-name>[Confirmed_HighRisk1.csv]</parent-name>
+            <remote-alias>US</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Spain</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Spain]</local-name>
+            <parent-name>[Confirmed_HighRisk1.csv]</parent-name>
+            <remote-alias>Spain</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Italy</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Italy]</local-name>
+            <parent-name>[Confirmed_HighRisk1.csv]</parent-name>
+            <remote-alias>Italy</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Germany</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Germany]</local-name>
+            <parent-name>[Confirmed_HighRisk1.csv]</parent-name>
+            <remote-alias>Germany</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Iran</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Iran]</local-name>
+            <parent-name>[Confirmed_HighRisk1.csv]</parent-name>
+            <remote-alias>Iran</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Turkey</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Turkey]</local-name>
+            <parent-name>[Confirmed_HighRisk1.csv]</parent-name>
+            <remote-alias>Turkey</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[China]' role='measure' type='quantitative' />
+      <column caption='Date' datatype='date' name='[F1]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[France]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Germany]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Iran]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Italy]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='integer' name='[Spain]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Turkey]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[US]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[United Kingdom]' role='measure' type='quantitative' />
+      <column-instance column='[China]' derivation='Sum' name='[sum:China:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[France]' derivation='Sum' name='[sum:France:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Germany]' derivation='Sum' name='[sum:Germany:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Iran]' derivation='Sum' name='[sum:Iran:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Italy]' derivation='Sum' name='[sum:Italy:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Spain]' derivation='Sum' name='[sum:Spain:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Turkey]' derivation='Sum' name='[sum:Turkey:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[US]' derivation='Sum' name='[sum:US:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[United Kingdom]' derivation='Sum' name='[sum:United Kingdom:qk]' pivot='key' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.342033' measure-ordering='alphabetic' measure-percentage='0.657967' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1htidrz03tjtbj14z9z270kb2k4k].[sum:China:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1htidrz03tjtbj14z9z270kb2k4k].[sum:Spain:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1htidrz03tjtbj14z9z270kb2k4k].[sum:Germany:qk]&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;[federated.1htidrz03tjtbj14z9z270kb2k4k].[sum:Turkey:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.1htidrz03tjtbj14z9z270kb2k4k].[sum:Italy:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.1htidrz03tjtbj14z9z270kb2k4k].[sum:Number of Records:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1htidrz03tjtbj14z9z270kb2k4k].[sum:France:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.1htidrz03tjtbj14z9z270kb2k4k].[sum:Iran:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1htidrz03tjtbj14z9z270kb2k4k].[sum:United Kingdom:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.1htidrz03tjtbj14z9z270kb2k4k].[sum:US:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Confirmed_HighRisk1' name='federated.1htidrz03tjtbj14z9z270kb2k4k' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1htidrz03tjtbj14z9z270kb2k4k'>
+            <column datatype='integer' name='[China]' role='measure' type='quantitative' />
+            <column caption='Date' datatype='date' name='[F1]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[France]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Germany]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Iran]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Italy]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Spain]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Turkey]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[US]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[United Kingdom]' role='measure' type='quantitative' />
+            <column-instance column='[F1]' derivation='Max' name='[max:F1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[F1]' derivation='None' name='[none:F1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[China]' derivation='Sum' name='[sum:China:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[France]' derivation='Sum' name='[sum:France:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Germany]' derivation='Sum' name='[sum:Germany:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Iran]' derivation='Sum' name='[sum:Iran:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Italy]' derivation='Sum' name='[sum:Italy:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Spain]' derivation='Sum' name='[sum:Spain:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Turkey]' derivation='Sum' name='[sum:Turkey:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[US]' derivation='Sum' name='[sum:US:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[United Kingdom]' derivation='Sum' name='[sum:United Kingdom:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1htidrz03tjtbj14z9z270kb2k4k].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1htidrz03tjtbj14z9z270kb2k4k].[sum:China:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1htidrz03tjtbj14z9z270kb2k4k].[sum:France:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1htidrz03tjtbj14z9z270kb2k4k].[sum:Germany:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1htidrz03tjtbj14z9z270kb2k4k].[sum:Iran:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1htidrz03tjtbj14z9z270kb2k4k].[sum:Italy:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1htidrz03tjtbj14z9z270kb2k4k].[sum:Spain:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1htidrz03tjtbj14z9z270kb2k4k].[sum:Turkey:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1htidrz03tjtbj14z9z270kb2k4k].[sum:US:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1htidrz03tjtbj14z9z270kb2k4k].[sum:United Kingdom:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1htidrz03tjtbj14z9z270kb2k4k].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1htidrz03tjtbj14z9z270kb2k4k].[Multiple Values]' scope='rows' value='No. of cases' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.1htidrz03tjtbj14z9z270kb2k4k].[:Measure Names]' />
+              <text column='[federated.1htidrz03tjtbj14z9z270kb2k4k].[Multiple Values]' />
+            </encodings>
+            <label-data column='[federated.1htidrz03tjtbj14z9z270kb2k4k].[max:F1:qk]' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-mode' value='most-recent' />
+                <format attr='mark-labels-range-scope' value='multi-mark' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1htidrz03tjtbj14z9z270kb2k4k].[Multiple Values]</rows>
+        <cols>[federated.1htidrz03tjtbj14z9z270kb2k4k].[none:F1:qk]</cols>
+      </table>
+      <simple-id uuid='{7E532DD2-EAC1-4B8D-87EE-2CD0BEE81DA5}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='marks' />
+            <card type='filters' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='6' param='[federated.1htidrz03tjtbj14z9z270kb2k4k].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1htidrz03tjtbj14z9z270kb2k4k].[:Measure Names]</field>
+            <field>[federated.1htidrz03tjtbj14z9z270kb2k4k].[mn:F1:ok]</field>
+            <field>[federated.1htidrz03tjtbj14z9z270kb2k4k].[yr:F1:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6BE8DE84-8349-4B1C-9C3E-AB17D56F3477}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      5swCP//pfK/bJETPPDcAu1vrHJbKOCdlBodHuHtbpkHih0n+OK6INLlEU0SaBEBE2qW+IKPL
+      KB5+/gUtbTMzUWC/VGZ06hZHO09w0gPkM3FSroH0GKNSESb62NUCgNX5OiRlqDZD7t9/i9XF
+      RfIT8+jmEae1Yw58l3d/NiMVYaKvXS0AOkDhEEPjuoalpUdkCxOc7K9jJ1MMZAYZymkOyqeM
+      F3IAchAs+tKVV4FUGKIB13EIwpCY66JUiGU7WIBlWRhjsG1bVoFE35JlUBFpsgokIk0CICJN
+      AiAiTQIgIk0CICJNAiAiTQIgIk0CICJNAiAiTQIgIk0CICJNAiAiTQIgIu2KBTGGR0tfYRI5
+      BuOG/VKF4Ykpjna3cdI58pkEKUdj5yalIkz0tSsWxHgclmokkz4qP8D9tzsVYYWpBXTziEa9
+      zJHv8u6ttFSEib52tQDYcfK5JF4ImYTNgweLZ3uARzipHPnsICOOxf5xjcnhzvcMSz2A6EdS
+      ECMiTQ6CRaRJAESkSQBEpEkARKRJAESkSQBEpEkARKRJAESkSQBEpEkARKRJAESkSQBEpEkA
+      RKRdOQDGaA4OD9Ghz8bmFkobDvd3KJ82aTabaOVTb7Sus61CXLsrXw59sLvJ2n6VqXySwtgI
+      Tw+PwUqh/TrJdBLVbnJz/i1SMfmCDNG/rlQQo0OPtc0d6q029fQ0t7NZ9ou7JAdGUXi0GhWa
+      nsOca0tFmOhrL1UQU9zbI5+KsbGzz63ZeQ531nEzBXKpGLlUjKrvMjE8IHsA0bekIkxEmqwC
+      iUiTAIhIkwCISJMAiEiTAIhIkwCISJMAiEiTAIhIkwCISJMAiEiTAIhIkwCISJMAiEi7YgAM
+      J4d7bDwpEvpt1tbW8ZVmf3eLUuWUer2OCtvU6lIRJvrbFS+HNtRqdfZ2trEcm6mpcYr7h1hO
+      Fu2fkkjFCVotphfeIuFYaK2xbdnZiP5zxS/Jg+rJAbmRCdq1E1LpFCb0iKdH0bpFu1Gj6dnE
+      HButpSJM9K+rBcAoKuVT3DbcnCiwtLTG9Ny9s4qwIcaGBhlIxymd1BiX7wgTfUwqwkSkycRc
+      RJoEQESaBEBEmgRARNqVl0GF+L7S2lBv+7S9UAIgfjiMMYRK44eKtq9otn1Omz71lk+t6XHa
+      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
+      AElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
